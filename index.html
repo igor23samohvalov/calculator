@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <div>
+        <div class="calculator">
+            <div class="calculator__view">
+                <div id="history"></div>
+                <input type="text" id="value" value="0" readonly>
+            </div>
+            <div class="calculator__controls">
+                <button class="cell sign" id="KeyC">C</button>
+                <button class="cell sign" id="Backspace">⌫</button>
+                <button class="cell sign" id="percentage">%</button>
+                <button class="cell sign expression" id="NumpadDivide">/</button>
+                <button class="cell num" id="Numpad7">7</button>
+                <button class="cell num" id="Numpad8">8</button>
+                <button class="cell num" id="Numpad9">9</button>
+                <button class="cell sign expression" id="NumpadMultiply">x</button>
+                <button class="cell num" id="Numpad4">4</button>
+                <button class="cell num" id="Numpad5">5</button>
+                <button class="cell num" id="Numpad6">6</button>
+                <button class="cell sign expression" id="NumpadSubtract">-</button>
+                <button class="cell num" id="Numpad1">1</button>
+                <button class="cell num" id="Numpad2">2</button>
+                <button class="cell num" id="Numpad3">3</button>
+                <button class="cell sign expression" id="NumpadAdd">+</button>
+                <div class="empty"></div>
+                <button class="cell num" id="Numpad0">0</button>
+                <button class="cell" id="NumpadDecimal">.</button>
+                <button class="cell enter expression" id="NumpadEnter">=</button>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
